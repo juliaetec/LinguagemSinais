@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    background-image: url('fundo.png'); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 15vh;
+    padding:  1vw 1vw;
+    font-family: 'Lora', serif;
+}
+
+#logo {
+    width: 6vw;
+  
+}
+
+
+#pessoas {
+    position: absolute;
+    top: 2vh;
+    width: 35vw;
+    height: vw;
+    right: 15vw;
+}
+
+#mao-img {
+    width:50vw;
+    height: auto;
+    margin-top: 12vh;
+}
+
+#corpo {
+    max-width: 40vw;
+    margin: 2vw auto;
+    padding: 2vw;
+    border-radius: 10px;
+    margin-top: -2vh;
+    margin-right: 50vw;
+}
+
+h1 {
+    font-family: 'Poppins';
+    color:#FF5700;
+    font-size: 3vw;
+    letter-spacing: -4px;
+    font-style: italic;
+    margin-bottom: -2vh;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: 'Times New Roman';
+    color:#a0041e;
+    font-size: 1vw;
+    margin-bottom: px;
+}
+
+p {
+    margin-bottom: ;
+    font-family: 'Poppins';
+    color: #0c0c0c;
+    font-size: 1.1vw;
+    text-align: justify;
+    font-weight: 400;
+  
+}
+
+#mensagem-form {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    margin-bottom: 2vh;
+    padding: 1vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw;
+    border-radius: 5px;
+    border: 1px solid #e9bb3f;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button {
+    background-color: #f0c85a;
+    color: #a0041e;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fdda78;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+body::-webkit-scrollbar {
+    width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FF5700;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #FF5700;
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: calc(100% - 80px);
+    }
+}
